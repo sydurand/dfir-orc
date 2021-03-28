@@ -497,7 +497,7 @@ HRESULT Main::CheckConfiguration()
         log::Error(
             _L_,
             E_INVALIDARG,
-            L"No global (at samples level, MaxBytesTotal or MaxSampleCount) has been set: set limits in configuration "
+            L"No global (at samples level, MaxTotalBytes or MaxSampleCount) has been set: set limits in configuration "
             L"or use /nolimits\r\n");
         return E_INVALIDARG;
     }
